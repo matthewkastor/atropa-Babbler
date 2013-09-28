@@ -7,20 +7,12 @@ A highly customizable random text generator in JavaScript.
 The current published version:
 
 ```
-npm install atropa-Babbler
-```
-
-The bleeding edge development version:
-
-```
 npm install git+https://github.com/matthewkastor/atropa-Babbler.git#master
 ```
 
 For some packages I simply publish to the `gh-pages` branch since it's easier to
  generate web docs in the repo and push the whole thing. Check the repo
  if you try installing the `master` branch and don't get what you expect.
-
-This package lives at: [https://npmjs.org/package/atropa-Babbler](https://npmjs.org/package/atropa-Babbler)
 
 Source code available at: [https://github.com/matthewkastor/atropa-Babbler/](https://github.com/matthewkastor/atropa-Babbler/)
 

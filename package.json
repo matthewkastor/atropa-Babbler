@@ -1,6 +1,6 @@
 {
     "name": "atropa-Babbler",
-    "version": "2013.09.27-2334",
+    "version": "2013.09.27-2431",
     "description": "A highly customizable random text generator in JavaScript.",
     "main": "./src/atropa-Babbler.js",
     "directories": {
@@ -43,8 +43,8 @@
         }
     ],
     "dependencies": {
-        "atropa-header": "*",
-        "atropa-random": "*",
-        "atropa-string": "*"
+        "atropa-header": "git+https://github.com/matthewkastor/atropa-header.git#master",
+        "atropa-random": "git+https://github.com/matthewkastor/atropa-random.git#master",
+        "atropa-string": "git+https://github.com/matthewkastor/atropa-string.git#master"
     }
 }

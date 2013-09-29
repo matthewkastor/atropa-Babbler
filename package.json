@@ -1,6 +1,6 @@
 {
     "name": "atropa-Babbler",
-    "version": "2013.09.27-2431",
+    "version": "2013.09.29-141",
     "description": "A highly customizable random text generator in JavaScript.",
     "main": "./src/atropa-Babbler.js",
     "directories": {

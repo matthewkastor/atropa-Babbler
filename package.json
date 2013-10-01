@@ -20,7 +20,8 @@
         "buildDocs": "jsdoc-toolkit -v -d=./docs/jsdoc/ -r -s src/",
         "lint": "atropa-jslint ./src/atropa-Babbler.js",
         "srcFormat": "atropa-jsformatter ./src/atropa-Babbler.js ./src/atropa-Babbler.js",
-        "pretest": "node dev/browserify.js"
+        "pretest": "node dev/browserify.js",
+        "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./dev/vsdoc/ -r -s src/"
     },
     "homepage": "https://github.com/matthewkastor/atropa-Babbler/",
     "bugs": "https://github.com/matthewkastor/atropa-Babbler/issues",

@@ -1,4 +1,4 @@
-/// <reference path="../../docs/vsdoc/OpenLayersAll.js"/>
+/// <reference path="../docs/vsdoc/OpenLayersAll.js"/>
 var atropa = require('atropa-header');
 atropa.random = require('atropa-random').random;
 atropa.string = require('atropa-string').string;

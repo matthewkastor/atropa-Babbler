@@ -50,7 +50,7 @@ atropa.random = require('atropa-random').random;
  *  unless you installed this dependency manually.
  */
 atropa.string = require('atropa-string').string;
-/// <reference path="../../docs/vsdoc/OpenLayersAll.js"/>
+/// <reference path="../docs/vsdoc/OpenLayersAll.js"/>
 /*jslint
     indent: 4,
     maxerr: 50,
@@ -364,7 +364,7 @@ var atropa = require('atropa-header');
  *  unless you installed this dependency manually.
  */
 atropa.inquire = require('atropa-inquire').inquire;
-/// <reference path="../../docs/vsdoc/OpenLayersAll.js"/>
+/// <reference path="../docs/vsdoc/OpenLayersAll.js"/>
 /*jslint
     indent: 4,
     maxerr: 50,
@@ -795,7 +795,7 @@ module.exports = atropa;
 },{"atropa-header":4,"atropa-inquire":5}],4:[function(require,module,exports){
 var atropa = {};
 
-/// <reference path="../../docs/vsdoc/OpenLayersAll.js"/>
+/// <reference path="../docs/vsdoc/OpenLayersAll.js"/>
 
 /*jslint
     indent: 4,
@@ -917,7 +917,7 @@ module.exports = atropa;
  * @namespace Container for all Glorious classes, functions, etc.
  */
 var atropa = require('atropa-header');
-/// <reference path="../../docs/vsdoc/OpenLayersAll.js"/>
+/// <reference path="../docs/vsdoc/OpenLayersAll.js"/>
 /*jslint
     indent: 4,
     maxerr: 50,
@@ -1039,7 +1039,7 @@ module.exports = atropa;
  * @namespace Container for all Glorious classes, functions, etc.
  */
 var atropa = require('atropa-header');
-/// <reference path="../../docs/vsdoc/OpenLayersAll.js"/>
+/// <reference path="../docs/vsdoc/OpenLayersAll.js"/>
 /*jslint
     indent: 4,
     maxerr: 50,
@@ -1256,7 +1256,7 @@ module.exports = atropa;
  * @namespace Container for all Glorious classes, functions, etc.
  */
 var atropa = require('atropa-header');
-/// <reference path="../../docs/vsdoc/OpenLayersAll.js"/>
+/// <reference path="../docs/vsdoc/OpenLayersAll.js"/>
 /*jslint
     indent: 4,
     maxerr: 50,
@@ -1369,7 +1369,7 @@ atropa.regex = require('atropa-regex').regex;
  *  unless you installed this dependency manually.
  */
 atropa.arrays = require('atropa-arrays').arrays;
-/// <reference path="../../docs/vsdoc/OpenLayersAll.js"/>
+/// <reference path="../docs/vsdoc/OpenLayersAll.js"/>
 /*jslint
     indent: 4,
     maxerr: 50,

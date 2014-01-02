@@ -96,7 +96,6 @@ atropa.requires(
  * @requires atropa.random.integer
  * @requires atropa.string.ucFirst
  * @requires atropa.random.string
- * @see <a href="../../../AtropaToolboxTests.html?spec=atropa.Babbler">tests</a>
  * @example
  * var babbler = new atropa.Babbler(30);
  * // resets the word count
@@ -384,7 +383,6 @@ atropa.inquire = require('atropa-inquire').inquire;
  *  ☭ Hial Atropa!! ☭
  * @version 20130221
  * @namespace Utilities for handling arrays.
- * @see <a href="../../../AtropaToolboxTests.html?spec=atropa.arrays">tests</a>
  */
 atropa.arrays = {};
 /**
@@ -937,7 +935,6 @@ var atropa = require('atropa-header');
  *  ☭ Hial Atropa!! ☭
  * @version 20120909
  * @namespace Container for functions that test the state of inputs.
- * @see <a href="../../../AtropaToolboxTests.html?spec=atropa.inquire">tests</a>
  */
 atropa.inquire = {};
 /**
@@ -1059,7 +1056,6 @@ var atropa = require('atropa-header');
  *  ☭ Hial Atropa!! ☭
  * @version 20120909
  * @namespace Provides random strings and numbers.
- * @see <a href="../../../AtropaToolboxTests.html?spec=atropa.random">tests</a>
  */
 atropa.random = {};
 /**
@@ -1276,7 +1272,6 @@ var atropa = require('atropa-header');
  *  ☭ Hial Atropa!! ☭
  * @version 20120909
  * @namespace Container for regex functions.
- * @see <a href="../../../AtropaToolboxTests.html?spec=atropa.regex">tests</a>
  */
 atropa.regex = {};
 /**
@@ -1389,7 +1384,6 @@ atropa.arrays = require('atropa-arrays').arrays;
  *  ☭ Hial Atropa!! ☭
  * @namespace A few utilities for manipulating strings.
  * @requires atropa.regex.patterns
- * @see <a href="../../../AtropaToolboxTests.html?spec=atropa.string">tests</a>
  */
 atropa.string = {};
 /**

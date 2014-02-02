@@ -1,6 +1,6 @@
 {
   "name": "atropa-Babbler",
-  "version": "2014.1.2",
+  "version": "2014.2.1",
   "description": "A highly customizable random text generator in JavaScript.",
   "main": "./src/atropa-Babbler.js",
   "directories": {
@@ -21,7 +21,7 @@
     "lint": "atropa-jslint ./src/atropa-Babbler.js",
     "srcFormat": "atropa-jsformatter ./src/atropa-Babbler.js ./src/atropa-Babbler.js",
     "pretest": "node dev/browserify.js",
-    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./dev/vsdoc/ -r -s node_modules/atropa-header/src/ src/ node_modules/atropa-random/src/ node_modules/atropa-string/src/"
+    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./node_modules/jsdoc-toolkit/templates/vsdoc/ -r -s node_modules/atropa-header/src/ src/ node_modules/atropa-random/src/ node_modules/atropa-string/src/"
   },
   "homepage": "https://github.com/matthewkastor/atropa-Babbler/",
   "bugs": "https://github.com/matthewkastor/atropa-Babbler/issues",

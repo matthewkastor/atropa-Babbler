@@ -25,11 +25,17 @@
     
 
     window.atropa = {
-        /// <summary></summary>
-        /// <field name="data" type="">Container for gobal data related to the classes and functions.</field>
-        /// <field name="random" type="">Provides random strings and numbers.</field>
-        /// <field name="string" type="">A few utilities for manipulating strings.</field>
+        /// <summary>Container for all Glorious classes, functions, etc.</summary>
         /// <returns type="atropa"/>
+      
+        /// <field name="data" type="">Container for gobal data related to the classes and functions.</field>
+        data : {}, 
+      
+        /// <field name="random" type="">Provides random strings and numbers.</field>
+        random : {}, 
+      
+        /// <field name="string" type="">A few utilities for manipulating strings.</field>
+        string : {}, 
                 
         supportCheck: function(className, errorMessage) {
             /// <summary>Checks whether this class has been marked as unsupported and throws an 
@@ -71,10 +77,10 @@
     window.atropa = window.atropa || {};
 
     window.atropa.Babbler = function(wrdCount){
-        /// <summary></summary>
+        /// <summary>This class represents a babbler. The babbler
+        /// /// produces lorum ipsum text, to user specifications.</summary>
         /// <param name="wrdCount" type="Number">The amount of &quot;words&quot; you would like
         /// the babbler to produce.</param>
-        /// <returns type="atropa.Babbler"/>
     };
 
     var $x = window.atropa.Babbler;
@@ -169,7 +175,7 @@
     window.atropa = window.atropa || {};
 
     window.atropa.data = {
-        /// <summary></summary>
+        /// <summary>Container for gobal data related to the classes and functions.</summary>
         /// <returns type="atropa.data"/>
                 
     };
@@ -188,7 +194,7 @@
     window.atropa = window.atropa || {};
 
     window.atropa.random = {
-        /// <summary></summary>
+        /// <summary>Provides random strings and numbers.</summary>
         /// <returns type="atropa.random"/>
                 
         string: function(stringLength, characterClass) {
@@ -261,7 +267,7 @@
     window.atropa = window.atropa || {};
 
     window.atropa.string = {
-        /// <summary></summary>
+        /// <summary>A few utilities for manipulating strings.</summary>
         /// <returns type="atropa.string"/>
                 
         removeRepeatedWord: function(string) {
